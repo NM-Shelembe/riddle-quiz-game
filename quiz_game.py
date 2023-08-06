@@ -1,9 +1,9 @@
 print("****** Welcome to the quiz game ******")
 print("         ****** Riddles ****** \n ")
 
-playing = input("Do you want to play?(type yes or no) ")
+play = input("Do you want to play?(type yes or no) ")
 
-if playing.lower() != "yes":
+if play.lower() != "yes":
     quit()
 
 print("\nLet's begin \n")
